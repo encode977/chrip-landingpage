@@ -1,11 +1,16 @@
 import "./App.scss";
+import Header from "./components/Header";
+import Banner from "./pages/Banner";
 
 function App() {
   return (
     <div className="app">
-      <div className="app__body">
-        <h4>Header</h4>
-      </div>
+      <section className="top">
+        <div className="app__body">
+          <Header />
+          <Banner />
+        </div>
+      </section>
     </div>
   );
 }

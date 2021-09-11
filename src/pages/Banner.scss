@@ -1,0 +1,44 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+  .banner__left {
+    h1 {
+      font-size: 60px;
+      font-weight: 800;
+    }
+
+    p {
+      font-size: 14px;
+      color: gray;
+    }
+
+    .tweet__join {
+      margin-top: 8x;
+
+      span {
+        color: #c3478e;
+        font-weight: 800;
+      }
+    }
+
+    button {
+      background-color: #c3478e;
+      height: 40px;
+      font-size: 12px;
+      width: 150px;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+  }
+
+  img {
+    height: 65%;
+    width: 20rem;
+  }
+}

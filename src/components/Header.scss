@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+
+  h3 {
+    color: #c3478e;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .header__right {
+    display: flex;
+    align-items: center;
+    .header__menu {
+      display: flex;
+
+      li {
+        margin: 0 10px;
+        font-size: 15px;
+        a {
+          padding-bottom: 2px;
+          :hover {
+            border-bottom: 2px solid #262626;
+          }
+        }
+      }
+    }
+    .header__btn {
+      background-color: #c3478e;
+      height: 40px;
+      font-size: 12px;
+      width: 150px;
+      border: none;
+      color: #fff;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+  }
+}
