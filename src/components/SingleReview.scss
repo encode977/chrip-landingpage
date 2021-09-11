@@ -1,0 +1,35 @@
+.singleReview {
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+
+  p {
+    font-size: 14px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .profile__left {
+      display: flex;
+      align-items: center;
+      .profile__name {
+        margin-left: 5px;
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .twitter__icon {
+      color: #5da9dd;
+      font-size: 25px;
+    }
+  }
+}

@@ -11,9 +11,16 @@
     margin: auto;
 
     h2 {
-      margin-top: 30px;
+      margin-top: 40px;
       font-size: 25px;
       font-weight: 900;
+      display: inline-block;
     }
+  }
+
+  .third {
+    background-color: #bdf9f5;
+    margin-top: 20px;
+    height: 50vh;
   }
 }
