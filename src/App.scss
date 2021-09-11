@@ -1,7 +1,7 @@
 .app {
   background: #fff;
 
-  .top {
+  .first {
     background: whitesmoke;
     height: 90vh;
   }
@@ -9,5 +9,11 @@
     width: 90%;
     max-width: 1100px;
     margin: auto;
+
+    h2 {
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: 900;
+    }
   }
 }

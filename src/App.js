@@ -1,14 +1,23 @@
 import "./App.scss";
 import Header from "./components/Header";
+import Features from "./components/Features";
 import Banner from "./pages/Banner";
 
 function App() {
   return (
     <div className="app">
-      <section className="top">
+      <section className="first">
         <div className="app__body">
           <Header />
           <Banner />
+        </div>
+      </section>
+      <section className="second">
+        <div className="app__body">
+          <h2>
+            Features that help you <br /> Tweet smarter.
+            <Features />
+          </h2>
         </div>
       </section>
     </div>
