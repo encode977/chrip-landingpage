@@ -1,0 +1,19 @@
+.price__box {
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  p {
+    color: gray;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin: 8px;
+  }
+
+  li {
+    color: gray;
+    font-size: 12px;
+    padding: 7px;
+  }
+}

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Features from "./components/Features";
 import Banner from "./pages/Banner";
 import Reviews from "./pages/Reviews";
+import PriceBox from "./pages/PriceBox";
 
 function App() {
   return (
@@ -27,6 +28,20 @@ function App() {
           <Reviews />
         </div>
       </section>
+      <div className="fourth">
+        <div className="app__body">
+          <div className="price">
+            <div className="price__description">
+              <h2>One simple price plan</h2>
+              <p>
+                Start Growing your twitter by analyzing your follower's <br />
+                pattern
+              </p>
+            </div>
+            <PriceBox />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

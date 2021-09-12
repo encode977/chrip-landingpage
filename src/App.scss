@@ -23,4 +23,19 @@
     margin-top: 20px;
     height: 50vh;
   }
+
+  .fourth {
+    .price {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .price__description {
+        p {
+          font-size: 10px;
+
+          color: gray;
+        }
+      }
+    }
+  }
 }
