@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Banner from "./pages/Banner";
 import Reviews from "./pages/Reviews";
 import PriceBox from "./pages/PriceBox";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Reviews />
         </div>
       </section>
-      <div className="fourth">
+      <section className="fourth">
         <div className="app__body">
           <div className="price">
             <div className="price__description">
@@ -41,7 +42,12 @@ function App() {
             <PriceBox />
           </div>
         </div>
-      </div>
+      </section>
+      <section className="fifth">
+        <div className="app__body">
+          <Footer />
+        </div>
+      </section>
     </div>
   );
 }
