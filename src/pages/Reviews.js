@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import SingleReview from "../components/SingleReview";
 import "./Reviews.scss";
 import reviewData from "../handlers/ReviewsData";
 
 function Reviews() {
+  const [reviews, setReviews] = useState(reviewData);
   return (
     <div className="reviews">
-      {reviewData.slice(0, 3).map((item) => (
+      {reviews.slice(0, 3).map((item) => (
         <SingleReview
           key={item.id}
           image={item.image}
